@@ -11,8 +11,23 @@ body{
 }
 
 header{
+    display: flex;
     grid-area: naruto;
-    background-color: red;
+    background-color:black;
+    justify-content: center;
+}
+
+header div{
+background-color: #a5a8b1;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+width: 60%;
+}
+
+header div img{
+    height: 100%;
+    width: 100px;
 }
 
  nav{
