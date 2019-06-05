@@ -32,7 +32,18 @@ header div img{
 
  nav{
      grid-area: sasuke;
-     background-color: blue;
+     background-color: #f67834;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ nav a{
+     color: black;
+     text-decoration:none;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 900;
+
  }
 
  section{
